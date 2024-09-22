@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+    <title>Chat website</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!-- Main container for the chat website -->
+    <div class="main-container">
+        <!-- Navigation bar section -->
+        <div class="navbar">
+            <div class="nav-left">
+                <button class="menu-btn" id="toggleBtn">
+                    <i class="ri-menu-2-fill"></i>
+                </button>
+            
+                <span class="logo-icon">
+                    <img src="assets/img/dendenmushi.svg" alt="Dendenmushi">
+                </span>
+            </div>
+            
+            <div class="nav-right">
+                <form class="search-bar">
+                    <i class="ri-search-line search-icon"></i>
+                    <input type="text" name="" placeholder="Buscar...">
+                </form>
+                <i class="ri-settings-3-fill" class="setting"></i>
+                <a href="#" class="profile-link">
+                    <img src="assets/img/luffy.jpg" alt="" />
+                </a>
+            </div>
+        </div>
+        
+        <!-- Bottom section containing side menu and main chat area -->
+        <div class="bottom-sec">
+            <div class="side-menu" id="SideMenu">
+                <form class="search-bar">
+                    <i class="ri-search-line search-icon"></i>
+                    <input type="text" name="" placeholder="Search here...">
+                </form>
+                <ul>
+                    <li>
+                        <i class="ri-home-heart-fill"></i>
+                        <a href="#" class="active-link">Inicio</a>
+                    </li>
+
+                    <li>
+                        <i class="ri-account-pin-circle-fill"></i>
+                        <a href="#">Perfil</a>
+                    </li>
+
+
+                    <li>
+                        <i class="ri-group-2-fill"></i>
+                        <a href="#">Grupos</a>
+                    </li>
+                
+                    <li>
+                        <i class="ri-notification-4-fill"></i>
+                        <a href="#">Notificaciones</a>
+                    </li>
+                    <li>
+                        <i class="ri-logout-box-line"></i>
+                        <a href="#">Salir</a>
+                    </li>
+                </ul>
+                <div class="contacts">
+                    <div class="chat">
+                        <img src="assets/img/chopper.jpg" alt="chopper" />
+                        <p>Chopper</p>
+                    </div>
+                    <div class="chat">
+                        <div class="profile-link">
+                            <img src="assets/img/nami.jpg" alt="nami" />
+                        </div>
+                        <p>Nami</p>
+                    </div>
+                    <div class="chat">
+                        <img src="assets/img/nico.jpg" alt="nico" />
+                        <p>Nico</p>
+                    </div>
+                    <div class="chat">
+                        <div class="profile-link">
+                            <img src="assets/img/zoro.jpg" alt="nami" />
+                        </div>
+                        <p>Zoro</p>
+                    </div>
+
+                    <div class="chat">
+                        <img src="assets/img/sanji.jpg" alt="" />
+                        <p>Sanji</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactstion">
+                <div class="chat-header">
+                    <div class="profile-link-header">
+                        <span class="profile-link-main">
+                            <img src="assets/img/zoro.jpg" alt="" />
+                        </span>
+                        <h2>Zoro</h2>
+                    </div>
+                    <i class="ri-more-2-fill"></i>
+                </div>
+
+                <div class="all-chat">
+                    <div class="message-item">
+                        <img src="assets/img/zoro.jpg" alt="" />
+                        <div class="message-content">
+                            <h4>Zoro <span class="min"> 10 minutos</span></h4>
+                            <p>Luffy! ¿donde estan?. &#128544; </p>
+                        </div>
+                    </div>
+                    <div class="message-item my-message">
+                        <img src="assets/img/luffy.jpg" alt="" />
+                        <div class="message-content">
+                            <h4>Tu<span class="min"> 5 minutos</span></h4>
+                            <p> ¿donde estas tu?</p>
+                            <p> Te estamos buscando  &#128561;</p>
+                        </div>
+                    </div>
+                    <div class="message-item">
+                        <img src="assets/img/zoro.jpg" alt="" />
+                        <div class="message-content">
+                            <h4>Zoro <span class="min"> 2 minutos</span></h4>
+                            <p>Estoy buscando otra ruta &#129300;</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <i class="ri-add-circle-line chat-icon"></i>
+
+                    <form class="message-input-form">
+                        <input type="text" name="text" placeholder="Enter Message...">
+                        <i class="ri-emoji-sticker-fill chat-icon"></i>
+                        <i class="ri-attachment-2 chat-icon"></i>
+                    </form>
+
+                    <i class="ri-send-plane-2-fill chat-icon"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
